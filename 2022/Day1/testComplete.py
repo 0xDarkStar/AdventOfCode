@@ -1,3 +1,5 @@
+# Testing if both parts that I made separately work together
+
 from re import search
 
 f = open("testInput.txt", "r") # Reads the input file

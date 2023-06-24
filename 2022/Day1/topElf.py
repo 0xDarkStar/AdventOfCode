@@ -1,3 +1,5 @@
+# Purpose: Find the elf that holds the most calories
+
 from re import search
 
 f = open("input.txt", "r") # Reads the input file
@@ -29,6 +31,7 @@ f.close() # Close the file
 
 f = open("Matrix.txt", "r") # Reopen the file, but read it this time
 content = f.read() # Grab the matrix
+f.close()
 elfList = eval(content) # Use eval to turn the string matrix into an actual matrix
 print(elfList) # Show the matrix
 

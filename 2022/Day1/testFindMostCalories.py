@@ -1,5 +1,6 @@
 # Testing how to find elf with largest amount of calories
-# Turning the matrix into a list by getting the sum of each integer in a sub-list
+
+# Method #1: Turning the matrix into a list by getting the sum of each integer in a sub-list
 testList = [[9], [9, 2, 7], [0, 1, 2]] # The matrix
 
 for i in testList: # Grab each sub-list from the main list
@@ -14,3 +15,5 @@ for i in testList: # Grab each sub-list from the main list
 print(testList) # Shows the list with all the sums
 mostCalories = max(testList) # Grabs the highest value from the list
 print(mostCalories) # Shows the highest value
+
+# Method #1 works great, no need to change it.
