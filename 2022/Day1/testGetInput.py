@@ -34,3 +34,5 @@ f = open("testMatrix.txt", "r")
 content = f.read()
 elfList = eval(content)
 print(elfList)
+
+# Method #1 works great.
