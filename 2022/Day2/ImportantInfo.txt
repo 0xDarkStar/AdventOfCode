@@ -1,0 +1,34 @@
+The input would have two columns. The first column is the opponent, the second is the player.
+
+The first column would have:
+    - A: Rock
+    - B: Paper
+    - C: Scissors
+
+The second columnd would have:
+    - X: Rock
+    - Y: Paper
+    - Z: Scissors
+
+
+Points:
+
+Points are calculated by two variables:
+    - What somebody chose
+    - The outcome of that round for them
+
+ex:
+    Somebody plays X against C.
+    They would gain 1 point since they chose "Rock".
+    They would gain another 6 points because they won. (Rock beats Scissors)
+
+Rock gives one point
+Paper gives two points
+Scissors gives three points
+
+Losing gives no points
+A draw gives three points
+Winning gives six points
+
+Main Goal:
+Find the total score of the player (right) in the given strategy guide.

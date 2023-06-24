@@ -1,0 +1,14 @@
+It would read the input file (a .txt) and make a matrix.
+Using the matrix, it would then look at the two items in the sub-list.
+By looking, it would be able to:
+    - See what the player chose (add those points to a "totalScore" variable)
+    - See if the player won that round (add those points the the "totalScore" variable as well)
+
+After looking at all the rounds, it would print the total score for the player.
+
+
+How would it turn the .txt into a matrix?
+
+It would do that by reading each separate line.
+A single line is a round.
+It would grab the first and third character and put them into their own little list.
