@@ -1,0 +1,3 @@
+each string of letters is an even number.
+lowercase letters from a-z get points from 1-26 (y would get 24 points)
+Uppercase letters from A-Z get points from 27-52 (Y would get 50 points)
