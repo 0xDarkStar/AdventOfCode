@@ -1,3 +1,6 @@
-each string of letters is an even number.
+each string of letters has an even number of characters.
+each string, when split in half, would have one letter that is in both halfs.
+depending on it's case and the letter, it can add a different amount of points.
+
 lowercase letters from a-z get points from 1-26 (y would get 24 points)
 Uppercase letters from A-Z get points from 27-52 (Y would get 50 points)
