@@ -1,0 +1,23 @@
+Goal: Find what letters would be at the top of each column after rearranging each column according to the instructions given.
+
+How it looks:
+
+[ ] [ ] [K] [ ]
+[ ] [ ] [C] [ ]
+[ ] [P] [Z] [T]
+[M] [G] [I] [A]
+ 1   2   3   4 
+
+How the instructions look:
+
+move 1 from 3 to 4
+move 3 from 3 to 1
+move 2 from 2 to 3
+
+How it would look in the end:
+
+[I] [ ] [ ] [ ]
+[Z] [ ] [ ] [K]
+[C] [ ] [G] [T]
+[M] [ ] [P] [A]
+ 1   2   3   4 

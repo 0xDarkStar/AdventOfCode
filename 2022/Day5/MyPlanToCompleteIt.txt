@@ -1,0 +1,41 @@
+The input file has both the instructions and the matrix.
+
+I would grab each line and put them into a list.
+
+I would look through the list to find when I see the first numbers (They would be the numbers saying how many columns there are).
+
+Using the number for the final column, I will make that amount of lists in a matrix.
+
+Since I can find the index of the end of the columns, I can then grab the values for each list from the matrix.
+
+After that, I would have it run on a loop:
+
+    Check line:
+        line reads "move x from y to z"
+        for i in range(x):
+            moving = y.pop(-x)
+            z.append(moving)
+        Instructions from line are complete
+    Check next line:
+        ...
+
+And repeat.
+
+Since my input only has single digit numbers, I don't have to worry about my instructions being something like:
+    "move xx from y to zzz"
+
+I can find each number normally using indexes. But I'd like to be prepared for multi-digit numbers.
+
+To make sure that my script works with multi-digit numbers, I'll be using regular expressions.
+
+The regular expression I'd be using is:
+    "move (\d+) from (\d+) to (\d+)"
+
+What this does is search for anything that has:
+    - "move "
+    - any number of digits
+    - " from "
+    - any number of digits
+    - " to "
+    - any number of digits
+
